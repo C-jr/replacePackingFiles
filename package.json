@@ -1,0 +1,17 @@
+{
+  "name": "testglobal",
+  "version": "1.0.0",
+  "description": "测试创建node全局命令",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "pub": "./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "2.20.3",
+    "inquirer": "8.0.0",
+    "node-xlsx": "^0.24.0"
+  }
+}
