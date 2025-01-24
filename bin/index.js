@@ -12,7 +12,7 @@ myCommander.replaceByEnv(program);
 myCommander.replaceByProject(program);
 myCommander.handleConfig(program);
 myCommander.handleSearchConfig(program);
-myCommander.handleSearchConfig(program);
+myCommander.handleEditConfig(program);
 myCommander.handleDeleteConfig(program);
 
 program.parse(process.argv);
